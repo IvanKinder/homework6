@@ -1,4 +1,4 @@
-from Class_2 import Road
+from Road import Road
 
 road = Road(5000, 20)
 road.how_mass()

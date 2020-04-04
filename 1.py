@@ -1,4 +1,4 @@
-from Class_1 import TrafficLight
+from TrafficLight import TrafficLight
 
 light = TrafficLight()
 set_0 = ["Красный", "Жёлтый", "Зелёный"]

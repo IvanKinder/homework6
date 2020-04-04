@@ -1,4 +1,4 @@
-from Class_3 import Worker
+from Worker import Worker
 
 
 class Position(Worker):

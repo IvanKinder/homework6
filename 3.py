@@ -1,4 +1,4 @@
-from Class_3_1 import Position
+from Position import Position
 
 income = {"Оклад": int(input("Введите оклад сотрудника: ")), "Премия": int(input("Введите премию сотрудника: "))}
 pos = Position("Александр", "Сергеев", "Разработчик", income)
