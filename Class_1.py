@@ -9,9 +9,9 @@ class TrafficLight:
         print(self._TrafficLight__color, end='\r')
         sleep(sleep_time)
 
-    def running(self):
+    def running(self, colors):
         while True:
-            self.change_color("Красный", 7)
-            self.change_color("Жёлтый", 2)
-            self.change_color("Зелёный", 10)
-            self.change_color("Жёлтый", 2)
+            self.change_color(colors[0], 7)
+            self.change_color(colors[1], 2)
+            self.change_color(colors[2], 10)
+            self.change_color(colors[1], 2)
