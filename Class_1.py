@@ -6,7 +6,7 @@ class TrafficLight:
 
     def change_color(self, color, sleep_time):
         self._TrafficLight__color = color
-        print(self._TrafficLight__color)
+        print(self._TrafficLight__color, end='\r')
         sleep(sleep_time)
 
     def running(self):
