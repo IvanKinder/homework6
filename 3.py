@@ -1,7 +1,6 @@
 from Position import Position
 
-income = {"Оклад": int(input("Введите оклад сотрудника: ")), "Премия": int(input("Введите премию сотрудника: "))}
-pos = Position("Александр", "Сергеев", "Разработчик", income)
+pos = Position("Александр", "Сергеев", "Разработчик", 150000, 35000)
 
 print(f"Атрибуты класса Position: {pos.name}, {pos.surname}, {pos.position}, {pos._income}")
 pos.get_full_name()
