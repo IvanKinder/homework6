@@ -2,7 +2,6 @@ from random import randint
 from Car import Car
 from Cars import TownCar, SportCar, WorkCar, PoliceCar
 
-
 car = Car(randint(0, 120), "Белый", "Nissan")
 print(f"Сейчас будет всё для класса Car с атрибутами: {car.speed}, {car.color}, {car.name}, {car.is_police}:")
 car.go()
